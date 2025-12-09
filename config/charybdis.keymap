@@ -122,6 +122,11 @@
             bindings = <&mo 3>;
             key-positions = <3 16>;
         };
+
+        btl {
+            bindings = <&tog 2>;
+            key-positions = <35 47>;
+        };
     };
 
     keymap {

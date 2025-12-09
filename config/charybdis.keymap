@@ -129,21 +129,21 @@
 
         QWERTY {
             bindings = <
-&kp ESC       &kp N1          &kp N2  &lt 3 N3  &kp N4     &kp N5          &kp N6      &kp N7           &kp N8           &kp N9           &kp N0        &kp BACKSPACE
-&kp TAB       &kp Q           &kp W   &kp E     &kp R      &kp T           &kp Y       &kp U            &kp KP_NUMBER_8  &kp O            &kp P         &kp BSLH
-&kp CAPSLOCK  &kp A           &kp S   &kp D     &kp F      &kp G           &kp H       &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS   &kp SQT
-&kp LCTRL     &kp LEFT_SHIFT  &kp Z   &kp X     &kp C      &kp V           &kp N       &kp F10          &kp F11          &kp F12          &kp KP_ENTER  &kp RIGHT_SHIFT
-                                      &kp H     &kp SPACE  &mo 1           &kp DELETE  &kp KP_N0
-                                                &none      &kp LEFT_ALT    &kp ENTER
+&kp ESC       &kp N1          &kp N2  &lt 3 N3  &kp N4            &kp N5          &kp N6      &kp N7           &kp N8           &kp N9           &kp N0        &kp BACKSPACE
+&kp TAB       &kp Q           &kp W   &kp E     &kp R             &kp T           &kp Y       &kp U            &kp KP_NUMBER_8  &kp O            &kp P         &kp BSLH
+&kp CAPSLOCK  &kp A           &kp S   &kp D     &kp F             &kp G           &kp H       &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS   &kp SQT
+&kp LCTRL     &kp LEFT_SHIFT  &kp Z   &kp X     &kp C             &kp V           &kp N       &kp F10          &kp F11          &kp F12          &kp KP_ENTER  &kp RIGHT_SHIFT
+                                      &kp X     &kp SPACE         &kp H           &kp DELETE  &kp KP_N0
+                                                &lt 1 LEFT_SHIFT  &kp LEFT_ALT    &kp ENTER
             >;
         };
 
         F_layers {
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5   &kp F6    &kp F7     &kp F8     &kp F9     &kp F10       &kp F11    &kp F12
-&trans  &none   &kp F2  &kp F3  &none    &trans    &none      &none      &none      &kp UP_ARROW  &kp MINUS  &kp EQUAL
-&trans  &none   &kp F7  &kp F8  &none    &trans    &mkp LCLK  &mkp LCLK  &mkp RCLK  &kp DOWN      &kp RIGHT  &trans
-&trans  &trans  &none   &none   &kp F12  &none     &none      &none      &trans     &trans        &none      &trans
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5   &kp F6    &kp F7     &kp F8     &kp F9    &kp F10       &kp F11    &kp F12
+&trans  &none   &kp F2  &kp F3  &none    &trans    &none      &none      &kp UP    &kp UP_ARROW  &kp MINUS  &kp EQUAL
+&trans  &none   &kp F7  &kp F8  &none    &trans    &mkp LCLK  &kp LEFT   &kp DOWN  &kp RIGHT     &kp RIGHT  &trans
+&trans  &trans  &none   &none   &kp F12  &none     &none      &none      &trans    &trans        &none      &trans
                         &trans  &trans   &trans    &mkp LCLK  &mkp RCLK
                                 &trans   &none     &trans
             >;
